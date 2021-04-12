@@ -1,0 +1,233 @@
+@font-face{
+    font-family: school;
+    src: url(font/University.otf);
+}
+
+@font-face{
+    font-family: bebasNeue;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: bebasNeueBook;
+    src: url(font/BebasNeue-Book.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    float: left;
+    margin-top: 0;
+}
+
+#cabecalho{
+    background-image: url(images/Conheça-o-programa-jovem-aprendiz-do-senac-BA-2020.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+    border-bottom: solid black;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+}
+
+.name{
+    font-size: 70px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: school;
+    color: black ; 
+    text-shadow: white  0.1em 0.1em 0.2em
+}
+
+header{
+    text-align: center;
+}
+
+.linkho{
+    background-color: black;
+    margin-right: 15px;  
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-family: bebasNeue;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.linkho:hover{
+    background-color: yellow;
+    margin-right: 15px;  
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-family: bebasNeue;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: left;
+    list-style: none; 
+}
+
+.title{
+    font-family: bebasNeue;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-family: bebasNeueBook;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+
+li{
+    overflow: auto;
+    font-family: bebasNeueBook;
+    list-style: none;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.titlecursos{
+    text-align: center;
+    font-family: bebasNeue;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.containercursos{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: outset;
+    padding: 10px;  
+    background-color: #76DED1;
+    text-align: center;
+    display: block;
+    text-align: justify;
+    overflow: auto;
+   background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tenhointeresse{
+    color: black;
+}
+
+
+#botti{
+    border: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 580px;
+    margin-right: 580px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: yellow;
+    font-family: bebasNeueBook;
+    font-size: 20px;
+}
+
+
+.rsociais{
+    padding: 40px;
+    float: left;
+    background-color: black;
+    border-right:solid white;
+    border-bottom: solid white;
+}
+
+.titlers{
+    font-family: bebasNeueBook;
+    text-align: center;
+    color: white;
+}
+
+.pictureicon{
+    margin-top: 5px;
+    
+}
+.rsociais2{
+    padding: 40px;
+    width: 500px;
+    height: 158px;
+    float: left;
+    background-color: black;
+    border-right:solid white;
+    border-bottom: solid white;
+}
+
+input{
+ margin-top: 10px;
+ margin-left: 150px;
+padding: 15px;    
+}
+
+input[type="submit"]{
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px;
+}
+.rsociais3{
+    padding: 40px;
+    width: 499px;
+    height: 158px;
+    float: right;
+    background-color: black;
+    border-right:solid white;
+    border-bottom: solid white;
+}
+
+.contatofo{
+    list-style: none;
+    color: white;
+    font-family: bebasNeueBook;
+    font-size: 16px;
+}
+
+.titlecontatofo{
+    font-family: bebasNeue;
+    color: yellow;
+    
+}
+
+#end{
+    background-color: black;
+    font-family: bebasNeue;
+    color: yellow;
+    border: solid white;
+    text-align: left;
+    padding: 5px;
+    font-size: 13px;
+}

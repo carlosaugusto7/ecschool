@@ -1,0 +1,172 @@
+@font-face{
+    font-family: school;
+    src: url(../font/University.otf);
+}
+
+@font-face{
+    font-family: bebasNeue;
+    src: url(../font/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: bebasNeueBook;
+    src: url(../font/BebasNeue-Book.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    float: left;
+    margin-top: 0;
+}
+
+.cabecalho{
+    background-image: url(../images/Conheça-o-programa-jovem-aprendiz-do-senac-BA-2020.jpg);
+    border-bottom: solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+}
+
+.name{
+    font-size: 70px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: school;
+    color: black ; 
+    text-shadow: white  0.1em 0.1em 0.2em
+}
+
+header{
+    text-align: center;
+}
+
+.linkho{
+    background-color: black;
+    margin-right: 15px;  
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-family: bebasNeue;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.linkho:hover{
+    background-color: yellow;
+    margin-right: 15px;  
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-family: bebasNeue;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: left;
+    list-style: none; 
+}
+
+body {
+        background-image:url(../images/rvirtual.jpg);
+
+        background-size: cover;
+      }
+
+.logo{
+    width: 100px;
+    float: left;
+}
+
+.formContainer{
+    width: 450px;
+    background-color: #060612;
+    padding: 70px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: bebasNeueBook;
+    border: solid white;
+}
+
+.titlema{
+    text-align: center;
+    font-size: 70px;
+    font-family: bebasNeue;
+    padding: 10px;
+    color: white;
+}
+
+.textma{
+    clear: left;
+    text-align: justify;
+    font-size: 23px;
+    font-family: bebasNeue;
+    margin-top: 30px;
+    color: white;
+}
+
+input, select{
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; /* os 3 são perder o padrão nos diferentes navegadores */
+     background-image: url(../images/arrow.jpg);
+     background-repeat: no-repeat;
+     background-position-x: calc(100% - 10px);
+     background-position-y: center;
+}
+
+.titleinp{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background: yellow;
+}
+
+input[type="submit"]{
+    background-color: yellow;
+    font-weight: bold;
+    font-family: bebasNeue;
+    font-size: 30px;
+}
+
+.infosfinal{
+    font-size: 20px;
+    color: white;
+}
+
+.equipe{
+    font-size: 23px;
+    background-color: yellow;
+    font-weight: bold;
+    text-align: center;
+}

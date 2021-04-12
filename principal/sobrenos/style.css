@@ -1,0 +1,329 @@
+@font-face{
+    font-family: school;
+    src: url(../font/University.otf);
+}
+
+@font-face{
+    font-family: bebasNeue;
+    src: url(../font/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: bebasNeueBook;
+    src: url(../font/BebasNeue-Book.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    float: left;
+    margin-top: 0;
+}
+
+.cabecalho{
+    background-image: url(../images/Conheça-o-programa-jovem-aprendiz-do-senac-BA-2020.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+    border-bottom: solid black;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+}
+
+.name{
+    font-size: 70px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: school;
+    color: black ; 
+    text-shadow: white  0.1em 0.1em 0.2em
+}
+
+header{
+    text-align: center;
+}
+
+.title{
+    color: white;
+}
+
+.linkho{
+    background-color: black;
+    margin-right: 15px;  
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-family: bebasNeue;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.linkho:hover{
+    background-color: yellow;
+    margin-right: 15px;  
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-family: bebasNeue;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: left;
+    list-style: none; 
+}
+
+.linkhoinfo{
+    background-color: black;
+    margin-top: 20px;
+    margin-right: 15px;  
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    font-family: bebasNeue;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.linkhoinfo:hover{
+    background-color: yellow;
+    margin-right: 15px;  
+    border: solid;
+    border-radius: 10px;
+    border-color: yellow;
+    font-family: bebasNeue;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.cursosop{
+    margin-top: 10px;
+    margin-left: 30%;
+    display: inline-block;
+}
+
+#equipe2{
+    text-align: center;
+    font-family: bebasNeue;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+}
+
+#sobrenos{
+    text-align: center;
+    font-family: bebasNeue;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+
+.titletext{
+    text-align: left;
+    font-family: bebasNeue;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
+.fundacao{
+    font-family: bebasNeueBook;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.picturenav{
+    width: 100;
+    float: right;
+    margin-left: 15px;
+    margin-right: 5px;
+    border: unset;
+    border-radius: 20px;
+}
+
+.equipamentos{
+    font-family: bebasNeue;
+    margin-left:50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+.func{
+    border: solid white;
+    width: 150px;
+    margin-left: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #060612;
+}
+
+.picturefunc{
+    width:  100px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: solid black;
+    border-radius: 20px;
+    }
+
+    .titlefunc{
+        text-align: center;
+        font-family: bebasNeue;
+        color: white;
+    }
+
+    .textfunc{
+        font-family: bebasNeueBook;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .descfunc{
+        height: 150px;
+    }
+
+
+.unidades{
+    width: 600px;
+    height: 500px;
+    border: solid black;
+    background-color: #060612;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.mapa{
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#uni{
+    font-family: bebasNeue;
+    text-align: center;
+    font-size: 50px;
+}
+
+#team{
+font-family: bebasNeue;
+text-align: center;
+font-size: 50px;
+margin-top: 10px;
+}
+
+
+
+
+
+.titleun{
+    font-family: bebasNeue;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+}
+
+.textun{
+    font-family: bebasNeueBook;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+#contato{
+    width: 1200px;
+    height: 700px;
+    border: solid black;
+    background-color: #060612;
+    margin-left: 80px;
+    margin-top: 100px;
+    display: block;
+}
+
+.titlesdep{
+    font-family: bebasNeue;
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+
+}
+.textdep{
+    font-family: bebasNeueBook;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+
+.titletel{
+    font-family: bebasNeue;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    clear: left;
+}
+
+.subtitletel{
+    font-family: bebasNeue;
+    font-size: 30px;
+    color: yellow;
+    text-align: center;
+    clear: left;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.logo{
+    float: left;
+    margin-top:10px;
+    margin-left: 10px ;
+    width: 100px;
+}
